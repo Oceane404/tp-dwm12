@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    border-right-color: rgb(235, 217, 217);
+}
+
+body{
+    background-color: white;
+    
+}
+
+
+nav ul{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+    justify-content: space-evenly;
+    background-color: firebrick;
+}
+
+nav ul li {
+    width: 100px;
+    height: 40px;
+    padding: 0px;
+    margin: 0px;
+    border-right: 1px solid rgb(202, 198, 198);
+    text-align: center;
+    line-height: 40px;
+}
+
+nav ul li a{
+    color: #F4FEFE;
+    text-decoration: none;
+}
+
+nav li :hover{
+    background-color: black;
+    border-radius: 2px;
+}
+
+.examen {
+    display: inline-flexbox;
+    text-align: center;
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px Arial, sans-serif;
+}
+.examen thead th {
+    background-color: rgb(245, 146, 146);
+    border: solid 2px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: left;
+    text-shadow: 1px 1px 1px #fff;
+}
+.examen tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+
+footer {
+    background:#ccc;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    padding-top:50px;
+    height:10px;
+}
+
+#title {
+    color: grey;
+    font-size: large;
+}
